@@ -1,0 +1,58 @@
+{
+  "name": "mmc1",
+  "title":"mmc1",
+  "resources": [
+    {
+      "path": "mmc1.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "latitude [_N]",
+            "type": "lat"
+          },
+          {
+            "name": "longitude [_E]",
+            "type": "lon"
+          },
+          {
+            "name": "year",
+            "type": "integer"
+          }
+          {
+            "name": "year day",
+            "type": "integer"
+          }
+          {
+            "name": "PAR [mol quanta m-2 d-1]",
+            "description":"photosynthesized active radiation - light",
+            "type": "float"
+          }
+          {
+            "name": "SST [oC]",
+            "description":"sea surface temperature",
+            "type": "float"
+          }
+          {
+            "name": "MLD [m]",
+            "description":"mixed layer depth",
+            "type": "float"
+          }
+          {
+            "name": "daylength [hr]",
+            "type": "float"
+          }
+          {
+            "name": "sfce chl. [mg m-3]",
+            "description":"sea surface chlorine volume",
+            "type": "float",
+          }
+          {
+            "name": "IPP [g C m-2 d-1]",
+            "description":"integrated primary productivity",
+            "type": "float"
+          }
+        ]
+      }
+    }
+  ]
+}
